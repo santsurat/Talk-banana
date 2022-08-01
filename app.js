@@ -1,6 +1,13 @@
-let btnTranslate = document.queryselector("#btn-translate");
+let btnTranslate = document.querySelector("#btn-translate");
 
-btnTranslate.addEventListener("click", function clickEventhandler() 
-{
-console.log("clicked!")
-})
+let txtInput = document.querySelector("#txt-input");
+console.log(txtInput)
+
+ function clickEventHandler() {
+console.log("clicked!");
+console.log("input", txtInput.value)
+ }
+
+
+document.body.style.backgroundColor = "orange";
+btnTranslate.addEventListener("click", clickEventHandler )

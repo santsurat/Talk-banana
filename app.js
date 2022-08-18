@@ -7,7 +7,7 @@ translateButton.addEventListener("click", buttonClickHandler)
 var translateInput = document.querySelector("#txt-input");
 
 
-var translateOutput = document.querySelector("#output");
+var translateOutput = document.querySelector("#translate-output");
 
 
 var url = "https://api.funtranslations.com/translate/minion.json"
